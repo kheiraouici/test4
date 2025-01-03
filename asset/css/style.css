@@ -1,0 +1,85 @@
+body{
+    box-shadow: 10px 10px 10px gray;
+    font-family: "raleway";
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#bloc-1{
+    background-color: #17abb3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "raleway";
+    color: #ffffff ;
+    width: auto;
+    height: 190px;;
+}
+#bloc1 p{
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+h1{
+    color: white;
+    font-family: "lato";
+    padding-left: 400px;
+}
+
+h2{
+    color: #17abb3;
+    font-family: "lato";
+    padding-left: 150px;
+}
+#bloc-1 a{
+    color: #ffffff;
+}
+#bloc-1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+
+}
+#bloc-2{
+    background-color: rgb(239, 232, 232);
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+}
+h3{
+    color: #17abb3;  
+    font-family: "lato"; 
+}
+
+ul{
+    list-style-type: square ;
+}
+
+#bloc-3{
+     flex-direction: column;
+     overflow:scroll;
+     width: 600px;
+     height: 600px;
+     float: right;
+     padding-right: 150px;
+     
+   
+}
+#bloc-3 p:active{
+    background-color: gray;
+}
+#bloc-4{
+    background-color: #17abb3;
+    height: 100px;
+    width: auto;
+}
+img{
+    width: 30px;
+    height: 30px;
+    padding-left: 200px;
+}
+
+
+
+
